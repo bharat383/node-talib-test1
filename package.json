@@ -1,0 +1,23 @@
+{
+  "name": "node-stock",
+  "version": "1.0.0",
+  "description": "Stock-Exchange-Node-Tali",
+  "main": "examples/stock.function.node.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "start":"node examples/stock.function.node.js"
+  },
+  "author": "Bharat Parmar",
+  "license": "MIT",
+  "gypfile": true
+}
